@@ -1,0 +1,23 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9f0;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #c7d300; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #9aa000; }
+.ArroWICon{
+      font-size: 26px !important;
+}
+header:focus-visible {
+  outline: none;
+}
+.MuiAppBar-root:focus-visible {
+  outline: none !important;
+}
+.MuiPaper-root-MuiAppBar-root {
+  border-bottom: none !important;
+}
