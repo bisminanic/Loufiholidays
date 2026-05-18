@@ -1,7 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+ server: {
+  proxy: {
+    "/emailjs": {
+      target: "https://api.emailjs.com",
+      changeOrigin: true,
+      secure: false,        // ← add this
+      rewrite: (path) => path.replace(/^\/emailjs/, ""),
+    },
+  },
+},
+});
