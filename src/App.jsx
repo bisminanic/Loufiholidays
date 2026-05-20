@@ -8,6 +8,8 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Destinations from "./components/Destinations";
 import ContactUs from "./components/ContactUs";
+import TestimonialsAndNewsletter from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
 
@@ -126,6 +128,7 @@ export default function App() {
         <Navbar />
 
         <Hero />
+        <Testimonials/>
         <ContactUs/>
         <Footer/>
       </Box>

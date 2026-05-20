@@ -135,7 +135,7 @@ export default function ContactUs() {
   };
 
   return (
-    <Box ref={pageRef} sx={{ minHeight: "100vh", pt: "66px", position: "relative", overflow: "hidden" }}>
+    <Box ref={pageRef} sx={{ minHeight: "100vh",  position: "relative", overflow: "hidden" }}>
 
       {/* ── SUCCESS MODAL ── */}
       {showModal && (
