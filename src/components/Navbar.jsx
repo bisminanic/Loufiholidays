@@ -30,7 +30,7 @@ const navLinks = [
     label: "Offers", badge: "HOT", serviceName: "Special Deals",
     dropdown: ["Summer Deals","Dubai Sale","Honeymoon Offers","Last Minute Trips","Group Discounts","Family Offers","Student Offers","Festival Packages","Early Bird Discounts"],
   },
-  { label: "About Us",     scrollTo: "home" },
+  { label: "About Us",     scrollTo: "about" },
   { label: "Testimonials", scrollTo: "testimonials" },
   { label: "Contact",      scrollTo: "contact" },
 ];
@@ -73,7 +73,7 @@ export default function Navbar() {
       setScrolled(window.scrollY > 50);
 
       // detect which section is in view
-      const sections = ["home", "testimonials", "contact"];
+       const sections = ["home", "about", "testimonials", "contact"];
       for (let i = sections.length - 1; i >= 0; i--) {
         const el = document.getElementById(sections[i]);
         if (el) {

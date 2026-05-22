@@ -343,7 +343,7 @@ export default function ContactUs() {
           </Box>
 
           {/* CTA Strip */}
-          <Box className="cta-strip"
+          {/* <Box className="cta-strip"
             sx={{
               mt: 6,
               background: "linear-gradient(135deg, rgba(199,211,0,0.12), rgba(199,211,0,0.04))",
@@ -377,7 +377,7 @@ export default function ContactUs() {
               }}>
               Chat on WhatsApp
             </Button>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </Box>

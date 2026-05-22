@@ -379,7 +379,7 @@ export default function Testimonials() {
           </Box>
 
           {/* ── CTA STRIP ── */}
-          <Box className="cta-section"
+          {/* <Box className="cta-section"
             sx={{
               background: "linear-gradient(135deg, rgba(199,211,0,0.12), rgba(199,211,0,0.04))",
               border: "1px solid rgba(199,211,0,0.2)",
@@ -413,7 +413,7 @@ export default function Testimonials() {
                 </Box>
               </Box>
             </Box>
-          </Box>
+          </Box> */}
 
         </Box>
       </Box>
