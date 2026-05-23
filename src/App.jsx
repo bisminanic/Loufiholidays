@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import  { useEffect, useRef } from "react";
 import { ThemeProvider, CssBaseline, Box } from "@mui/material";
 import { theme } from "./theme";
 
@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import AboutUs from "./components/Aboutus";
+import Holidays from "./components/Holidays";
 
 export default function App() {
   const cursorRef = useRef(null);
@@ -70,7 +71,7 @@ export default function App() {
         sx={{
           width: "8px",
           height: "8px",
-          background: "#000",
+          background: "#c7d300",
           borderRadius: "50%",
           position: "fixed",
           top: 0,
@@ -88,6 +89,8 @@ export default function App() {
         <Box id="home">
           <Hero />
         </Box>
+        <Box id="holidays">    <Holidays />   </Box>
+
         <Box id="about">
           {" "}
           <AboutUs />{" "}
