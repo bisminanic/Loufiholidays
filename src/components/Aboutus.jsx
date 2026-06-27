@@ -287,7 +287,7 @@ export default function AboutUs() {
   return (
     <Box
       ref={pageRef}
-      sx={{ minHeight: "100vh", pt: "66px", overflow: "hidden" }}
+      sx={{ minHeight: "100vh", overflow: "hidden" }}
     >
       {/* ════════ LIGHT HERO ════════ */}
       <Box
